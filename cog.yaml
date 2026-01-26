@@ -20,6 +20,7 @@ build:
     - "torchaudio==2.1.1"
     - "torchvision==0.16.1"
     - "tqdm==4.66.1"
+    - "resemble-enhance @ git+https://github.com/resemble-ai/resemble-enhance.git"
 
 # predict.py defines how predictions are run on your model
 predict: "predict.py:Predictor"

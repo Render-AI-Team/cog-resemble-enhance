@@ -15,4 +15,3 @@ Download the weight into a resemble folder
 Run prediction:
 
     cog predict -i input_audio=@demo.mp3
-
